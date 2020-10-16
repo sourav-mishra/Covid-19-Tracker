@@ -1,5 +1,6 @@
 {
-  "name": "covid-19-tracker",
+  "homepage":"http://sourav-mishra.github.io/Covid-19-Tracker",
+  "name": "covid-19-tracke.r",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,6 +16,8 @@
     "react-scripts": "3.4.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -37,6 +40,7 @@
   },
   "devDependencies": {
     "eslint-plugin-react-hooks": "^4.1.2",
+    "gh-pages": "^3.1.0",
     "leaflet": "^1.7.1",
     "react-leaflet": "^2.7.0"
   }
